@@ -1,0 +1,26 @@
+.notes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--margin-xl) 0;
+  font-size: 1rem;
+  text-align: left;
+
+  th,
+  td {
+    border: 1px solid var(--table-border-color);
+    padding: var(--padding-xs);
+  }
+
+  .highlighted-row {
+    background-color: var(--table-completed-color);
+  }
+
+  .completed-filter-active {
+    background-color: var(--table-completed-color);
+    color: white;
+  }
+
+  .completed-filter-inactive {
+    color: black;
+  }
+}

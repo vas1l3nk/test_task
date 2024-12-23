@@ -1,0 +1,17 @@
+.edit-btn{
+  padding: var(--padding-xs) var(--padding-xl);
+  margin: 0 var(--margin-xs);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &.edit-btn {
+    background-color: var(--edit-button);
+    color: var(--secondary-color);
+
+    &:hover {
+      background-color: var(--edit-button-hover);
+    }
+  }
+}

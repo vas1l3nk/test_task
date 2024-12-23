@@ -1,0 +1,24 @@
+:root {
+  //navbar
+  --navbar-background: #000;
+
+  //text
+  --primary-color: #000;
+  --secondary-color: #fff;
+
+  //table
+  --th-background: #f4f4f4;
+  --th-even-background: #f9f9f9;
+  --table-border-color: #ddd;
+  --table-completed-color: #d4edda;
+
+  //buttons
+  --edit-button: #007bff;
+  --edit-button-hover:#0056b3;
+  --delete-button: #dc3545;
+  --delete-button-hover:  #a71d2a;
+  --ok-button: #007bff;
+  --ok-button-hover: #0056b3;
+  --cancel-button: #f0f0f0;
+  --cancel-button-hover: #dcdcdc;
+}

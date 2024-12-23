@@ -1,0 +1,8 @@
+.footer {
+  height: var(--navbar-height);
+  display: flex;
+  align-items: center;
+  background: var(--navbar-background);
+  color: var(--secondary-color);
+  padding: var(--padding-lg);
+}
